@@ -5,10 +5,10 @@
 </head>
 <body>
 	<p>Click the button to get your live location.</p>
-	<button>Get Location</button>
+	<button id="getLocation">Get Location</button>
 	<p id="demo"></p>
 	<script>
-		document.getElementById("demo").addEventListener('click', function() {
+		document.getElementById("getLocation").addEventListener('click', function() {
 			getLocation();
 		}, {passive:false})
 	var x = document.getElementById("demo");
